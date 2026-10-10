@@ -1,0 +1,26 @@
+{
+  "name": "community-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for a community game server: role panel, group tools and a module loader",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "lint": "node scripts/check-syntax.js",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}

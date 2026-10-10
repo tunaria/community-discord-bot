@@ -1,0 +1,35 @@
+node_modules/
+.env
+.env.*
+!.env.example
+config.json
+downloaded_attachments/
+*.bak*
+
+# Secrets and settings: never commit
+.env.example.local
+*.pem
+*.key
+secrets/
+config.local.json
+
+# Optional private modules maintained by the owner: never public
+private/
+
+# Player data and runtime output: never commit
+*_backup.json
+install_messages_backup.json
+master_thesis.md
+data/
+exports/
+bugs/
+logs/
+*.log
+*.sqlite
+*.db
+
+# Scratch folder used by the tests
+.test-tmp/
+
+# Scratch folder used by the tests
+.test-tmp/
