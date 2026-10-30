@@ -6,7 +6,7 @@ const { root, fakeClient, fakeMessage } = require('./helpers');
 test('loads the public modules and runs', async () => {
   const { createBot } = require(require('path').join(root, 'core.js'));
   const bot = createBot({ root, client: fakeClient() });
-  assert.deepStrictEqual(bot.registry.modules, ['modules/group-tools.js', 'modules/role-select.js']);
+  assert.deepStrictEqual(bot.registry.modules, ['modules/group-tools.js', 'modules/role-select.js', 'modules/student-of-the-week.js']);
   assert.deepStrictEqual([...bot.registry.commands.keys()].sort(), ['boss', 'help', 'lfg', 'raid']);
   assert.ok(bot.registry.buttons.has('role_remove_all'));
 
