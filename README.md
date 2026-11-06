@@ -9,6 +9,8 @@ A Discord bot for a community game server, built on discord.js 14.
   one, a small example list is used.
 - **Group tools:** `!raid schedule|list`, `!lfg`, `!boss`.
 - **Help:** `!help` lists every command that is loaded.
+- **Student of the Week (optional, off by default):** weekly community pick with a
+  veto window and kill switch. See [docs/student-of-the-week.md](docs/student-of-the-week.md).
 
 ## How it is built
 
